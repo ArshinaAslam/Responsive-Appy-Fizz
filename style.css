@@ -1,0 +1,120 @@
+.body{
+    /* margin-top: 110px; */
+    overflow-x: hidden;
+}
+.container-fluid{
+    background: rgb(10,11,39);
+    margin-top:0;
+   
+   
+     margin-bottom: -9px; 
+    
+   
+}
+.navbar-toggler-icon {           
+
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22' /%3E%3C/svg%3E") !important;
+}
+.nav-link:hover{
+    color: red!important;
+
+}
+.dropdown-menu  {
+    border-bottom: 3px solid black !important;
+}
+
+.nav-item{
+   letter-spacing: 1px;
+    font-size :16px;
+}
+.img1{
+    width: 100%;
+    margin-top: 50px;
+   
+}
+.navbar{
+    position: fixed;
+}
+.img2{
+   
+
+    width: 150px;
+    height: 350px;
+    background-size: 100% 100%;
+    position: relative;
+    animation: rotate 1s linear infinite;
+      animation-play-state: paused;
+      animation-delay: calc(var(--scroll) * -2s);
+      animation-iteration-count: 1;
+      animation-fill-mode: both;
+     
+   
+}
+
+#col-para{
+    /*paragraph-page2*/
+
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+    
+    
+   
+   
+} 
+.head-image2{
+    
+/*heading-page2*/
+
+
+    color: rgb(255, 255, 255);
+    margin-left: -190px;
+    z-index: 1;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight:bold;
+    font-size: 55px;
+    
+   
+    
+}
+.img3{
+    width: 100%;
+    margin-top: 12px;
+}
+.page2{
+    background: black;
+    
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+@keyframes  rotate { /*image2-rotation*/
+	to {
+		transform: rotate(360deg);
+	}
+}
+.footer{
+    
+    font-size: 14px;
+}
+.link {
+    /*link*/
+
+
+    text-decoration: none;
+    color:black;
+}
+.link:hover{
+    text-decoration: underline;
+    color: #e53f27;
+
+}
